@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	background-color: #003638;
+     font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+    overflow: hidden;
+}
+.header {
+	background-image: url('../img/header.png');
+	background-color:#EEE;
+	height:350px;
+    background-size: cover;
+}
+.header .intro{
+	 text-align: center;
+    padding-top: 150px;
+}
+.header .intro a{
+	color: #FFF;
+   text-decoration: none;
+}
+.header .intro h2{
+   text-align: center;
+   margin: auto;
+   width: 400px;
+   color: #FFF;
+   font-size: 40px;
+   border-top: 4px solid #FFF;
+   border-bottom: 4px solid #FFF;  
+}
+.header .intro button{
+	background: none;
+	width: 100px;
+	height: 50px;
+	color:#FFF;
+	margin-top: 10px;
+
+}
+.header .navbar{
+	background-color: ;
+	color: #FFF;
+	height: 50px;
+	border-top: 3px solid #2DAAB3;
+	border-bottom: 3px solid #2DAAB3;
+    margin-top:85px;
+	margin-bottom:85px;
+	padding-bottom: 20px;
+    overflow: hidden;
+}
+.header .navbar h2{
+	float: left;
+}
+.header .navbar ul{
+	float: left;
+	font: bold;
+	list-style: none;
+	padding-left: 500px;
+    overflow:hidden;
+}
+.header .navbar ul li{
+	font: bold;
+	float: left;
+	padding-left:20px
+
+}
+.header .navbar ul li a{
+
+	color: #fff;
+	font-size: 16px;
+	font: bold;
+   text-decoration:none;
+
+}
+.info{
+	color: ##ffffffff;
+	margin:150px 200px 100px 200px;
+	border: 3px solid #2DAAB3;
+	float: left;
+	padding-bottom: 50px;
+}
+.info h1{
+	text-align: center;
+	color: #FFF;
+}
+.info p{
+	text-align: left;
+	color: #FFF;
+	font: bold;
+	font-size:18px; 
+	margin-left: 10px;
+	margin-right:10px;
+	line-height: 200%;
+    direction: ltr;
+}
+.info .applay_nw h3{
+	color: #ffffff;
+}
+.info .applay_nw li{
+	color: #2DAAB3;
+	float: left;
+	font-size: 16px;
+}
+.info .applay_nw  .applay li a{
+	color: #FFFD0A;
+	
+}
+.info h3{
+	text-align: center;
+	
+}
+.info .applay_nw ul li{
+	color: #FFF;
+	line-height: 30px;
+	text-align: left;
+}
+.info .applay_nw ul li a{
+	color:#FFFD0A; 
+}
+.info .end{
+	float: left;
+	padding-top: 0px
+}
+.info .end p{
+	float: left;
+}
+.footer{
+
+	margin-top: 1200px;
+    height: 200px;
+   	background-color:#1D1D1D;
+}
+.footer .contact_us p{
+
+	font-size: 18px;
+	font: bold;
+	text-align: left;
+	float: left;
+	margin-left: 50px;
+	color:#FFFD0A;
+}
+.footer .find_us{
+	margin-left: 40%;
+}
+.footer .find_us p{
+	font-size: 18px;
+	font: bold;
+	text-align: center;
+	float: left;
+	margin-left: 30px;
+	color:#FFFD0A;
+}
+.footer .find_us p a{
+	text-decoration: none;
+	color: #AAAAAA;
+}
+.footer .icons{
+	margin-left: 60%;
+}
+.footer .icons p{
+	font-size: 18px;
+	font: bold;
+	text-align: right;
+	float: left;
+	margin-left: 10px;
+	color:#FFFD0A;
+}
+.footer .icons p a{
+	text-decoration: none;
+	margin-left: 20px;
+
+}
+/*   sign in page  :D */
+.applyonline{
+	color: #fff;
+	margin:150px 200px 20px 200px;
+	border: 3px solid #2DAAB3;
+	float: left;
+	padding-bottom: 50px;
+	padding-left: 30px;
+}
+.applyonline h2{
+	text-align: center;
+}
+.applyonline p{
+	padding-left:20px; 
+} 
+.applyonline h3{
+	padding-left: 20px;
+}
+.applyonline ul li{
+    line-height: 30px;}
+.applyonline a{
+ 	color: #FFFD0A;
+ }
+ .mainform{
+    color: #fff;
+	margin:0px 200px 120px 200px;
+	border: 3px solid #2DAAB3;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-top: 50px;
+    float: left;
+    height: 130px;
+    width: 68%;
+
+ }
+.secform{
+
+     padding-left: 200px;
+   
+ }
+
+ .secform input{
+ 	color: black;
+ }
+  .secform .button{
+     padding-left: 120px;
+     padding-bottom:0px;
+ }
+ .secform .button input{
+ 	color:  #2DAAB3;
+
+   
+ }
+ .secform .button button{
+ 	background: none;
+ }
+ .secform  a{
+
+     color: #FFFD0A;
+   }
+   /* General styles
+*Contact*/
+.contact{
+	line-height: 20px;
+	height: 800px;
+	width: 70%;
+	margin: 200px 50px 30px 200px;
+    color: #FFF;
+	text-align: left;
+	
+   /* float: left;*/
+ border: 3px solid #2DAAB3;
+}
+.contact .send_email{
+	padding-left: 130px;
+
+}
+.contact .send_email button{
+	margin-top: 50px;
+	margin-left: 300px;
+}
+.contact h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+	text-align: center;
+}
+.contact textarea{
+	float: center;
+   color: black;
+}
+.contact input{
+	width: 500px;
+}
+.contact button{
+	background: none;
+	width: 100px;
+	height: 40px;
+}
+.contact .send_email input{
+color: black;
+}
